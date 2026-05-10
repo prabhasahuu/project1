@@ -15,3 +15,11 @@ gitinit
 git remote add origin {{repository}}
 do initial commit
 git push -u origin main
+
+activate venv
+dbt init
+provide account details
+provide warehouse,database and schema(dbt_schema)
+
+dbt debug
+if got error due to dbt project- place the dbt_project.yml folder in root level.run dbt debug again
